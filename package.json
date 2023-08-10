@@ -3,9 +3,9 @@
 	"publisher": "atlas",
 	"displayName": "laux",
 	"description": "Laux language support for Visual Studio Code",
-	"icon": "assets/laux.png",
+	"icon": "resources/laux.png",
 	"repository": "https://github.com/8char/laux-vscode",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.55.0"
 	},
@@ -14,6 +14,9 @@
 		"Snippets"
 	],
 	"main": "./dist/extension.bundle.js",
+	"activationEvents": [
+		"onLanguage:laux"
+	],
 	"contributes": {
 		"snippets": [
 			{
