@@ -1,6 +1,6 @@
 {
 	"name": "laux",
-	"publisher": "atlas",
+	"publisher": "LAUX",
 	"displayName": "laux",
 	"description": "Laux language support for Visual Studio Code",
 	"icon": "resources/laux.png",
