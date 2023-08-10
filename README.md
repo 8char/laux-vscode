@@ -1,0 +1,2 @@
+# LAUX (Visual Studio Code)
+Visual Studio Code **LAUX** syntax highlighting, [autocomplete and useful snippets](https://marketplace.visualstudio.com/items?itemName=aStonedPenguin.glua). It will automatically work on any `.laux` file you open.
