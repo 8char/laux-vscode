@@ -1,7 +1,7 @@
 {
-	"name": "laux",
+	"name": "laux-vscode",
 	"publisher": "LAUX",
-	"displayName": "laux",
+	"displayName": "LAUX - A Lua Superset",
 	"description": "Laux language support for Visual Studio Code",
 	"icon": "resources/laux.png",
 	"repository": "https://github.com/8char/laux-vscode",
