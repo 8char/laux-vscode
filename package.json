@@ -87,5 +87,8 @@
 		"vsce": "^1.83.0",
 		"webpack": "^5.88.2",
 		"webpack-cli": "^5.1.4"
+	},
+	"dependencies": {
+		"markdown-escape": "^2.0.0"
 	}
 }

@@ -1,6 +1,7 @@
 const vscode = require("vscode");
 
 const ColorProvider = require("./colorProvider");
+const WikiProvider = require("./wikiProvider");
 
 class LAUX {
 	constructor(extension) {
@@ -11,6 +12,7 @@ class LAUX {
 		this.tmpFiles = {};
 
 		new ColorProvider(this);
+		new WikiProvider(this);
 
 		console.log("vscode-luax activated");
 		console.timeEnd("vscode-luax");
