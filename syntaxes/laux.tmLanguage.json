@@ -7,7 +7,7 @@
   "name": "LAUX",
   "patterns": [
     {
-      "match": "(?<=class\\s+)\\b([a-zA-Z_][a-zA-Z0-9_]*)\\b",
+      "match": "((?<=class\\s+)\\b([a-zA-Z_][a-zA-Z0-9_]*)\\b|(?<=extends\\s+)\\b([a-zA-Z_][a-zA-Z0-9_]*)\\b)",
       "name": "entity.name.class.laux"
     },
     {
