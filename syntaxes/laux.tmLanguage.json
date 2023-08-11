@@ -1,7 +1,7 @@
 {
   "comment": "LAUX Syntax [2023 Edition]",
   "fileTypes": ["laux"],
-  "foldingStartMarker": "^\\s*\\b(function|local\\s+function|if|for)\\b|{[ \\t]*$|\\[\\[",
+  "foldingStartMarker": "^\\s*\\b(function|local\\s+function|if|for|class|async)\\b|{[ \\t]*$|\\[\\[",
   "foldingStopMarker": "\\bend\\b|^\\s*}|\\]\\]",
   "keyEquivalent": "^~L",
   "name": "LAUX",
@@ -160,7 +160,7 @@
       "name": "keyword.control.laux"
     },
     {
-      "match": "(?<![^.]\\.|:)\\b(NULL|false|nil|true|_G|_R|_VERSION|self|math\\.(pi|huge))\\b|(?<![.])\\.{3}(?!\\.)",
+      "match": "(?<![^.]\\.|:)\\b([A-Z0-9]+|NULL|false|nil|true|_G|_R|_VERSION|self|math\\.(pi|huge))\\b|(?<![.])\\.{3}(?!\\.)",
       "name": "constant.language.laux"
     },
     {
